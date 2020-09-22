@@ -15,7 +15,7 @@ class ConvertingApp(MDApp):
 
     icons = []
     for i in range(33):
-        icons.append(f"Flags\{i}.png")  #don't forget to write the path for the directory where the Flags file is stored 
+        icons.append(f"Flags\{i}.png")  #don't forget to write the path of the directory where the Flags file is stored 
 
     def build(self):
         self.theme_cls.primary_palette = "Teal"
